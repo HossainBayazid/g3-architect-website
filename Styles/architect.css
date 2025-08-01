@@ -144,13 +144,28 @@ main > section{
       box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2) ;
       margin-bottom: 20px;
  }
+
+ #experience-badge{
+        border-radius: 8px;
+      font-weight: 258px;
+      
+ }
+
+ #Experience-year{
+  font-weight: 900;
+  font-size: 2rem;
+ }
+.features-architect img{
+  width: 100%;
+
+}
  
 
  .feature-card, .feature-title{
       font-weight: 600;
       font-size: 1.25rem;
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 0  ;
 
      
  }
@@ -193,7 +208,14 @@ main > section{
     max-width: 540px;
 }
 
+/* footer-styles */
 
+.title{
+  background-color: #727272 ;
+  align-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
 
 
 /* RESPOONSIVE Media Query */
@@ -201,6 +223,7 @@ main > section{
   .navbar ,
    .nav-links
    .teams
+   .features
    {
     flex-direction: column;
   }
